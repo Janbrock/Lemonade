@@ -125,6 +125,10 @@ class MainActivity : AppCompatActivity() {
                 textAction.text = getString(R.string.lemon_drink)
                 lemonImage!!.setImageResource(R.drawable.lemon_drink)
             }
+            "restart" -> {
+                textAction.text = getString(R.string.lemon_empty_glass)
+                lemonImage!!.setImageResource(R.drawable.lemon_restart)
+            }
         }
     }
 
